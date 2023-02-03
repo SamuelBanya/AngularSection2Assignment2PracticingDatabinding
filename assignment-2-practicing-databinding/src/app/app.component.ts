@@ -7,4 +7,10 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'assignment-2-practicing-databinding';
+
+  username = '';
+
+  resetString() {
+    this.username = '';
+  }
 }
